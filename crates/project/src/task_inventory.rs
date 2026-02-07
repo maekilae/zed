@@ -668,6 +668,7 @@ impl Inventory {
 
             // Validate the variable names used in the `TaskTemplate`.
             let unknown_variables = template.unknown_variables();
+            // MAKILA TODO
             if !unknown_variables.is_empty() {
                 let variables_list = unknown_variables
                     .iter()
